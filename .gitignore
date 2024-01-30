@@ -5,3 +5,5 @@ node_modules/
 /playwright/.cache/
 /tests-examples
 example.spec.js
+.env
+auth.json
