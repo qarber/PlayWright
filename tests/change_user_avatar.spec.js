@@ -3,7 +3,7 @@ import { UserProfilePage } from "./POM/user_profile.page";
 
 test.describe('Upload file to user profile', () => {
 
-    test.only('Successfuly update user logo in profile', async ({page}) => {
+    test('Successfuly update user logo in profile', async ({page}) => {
         const userProfilePage = new UserProfilePage(page)
 
         await userProfilePage.open()

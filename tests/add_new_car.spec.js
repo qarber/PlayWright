@@ -4,7 +4,7 @@ import { UserGaragePage } from "./POM/user_garage.page";
 
 test.describe('Add new car to user profile', () => {
 
-    test.only('Successfuly add new car', async ({page}) => {
+    test('Successfuly add new car', async ({page}) => {
         const userGaragePage = new UserGaragePage(page)
 
         await userGaragePage.open()
